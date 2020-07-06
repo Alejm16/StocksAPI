@@ -1,0 +1,1 @@
+#These will hold all the equations that are going to be set up, P/E,Current ratio, etc
