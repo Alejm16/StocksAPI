@@ -1,8 +1,10 @@
 from Equations import *
-headers = { 'X-Finnhub-Token' : 'brv97snrh5r9k3fgt6b0'} #API
+import config
 import requests
 import json
+#headers = { 'X-Finnhub-Token' : 'brv97snrh5r9k3fgt6b0'} #API
 
+headers = { config.access_token : config.api_key}
 
 inp = input('Please input a stock Ticker, if you want to quit please press 1 ')
 
